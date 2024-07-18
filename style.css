@@ -60,7 +60,8 @@ a:hover {
 }
 
 .logo{
-    font-size: 3rem;
+    font-size: 5rem;
+
 
 }
 
@@ -175,8 +176,9 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto 0;
+
 }
+
 
 .section_text {
     align-self: center;
@@ -214,13 +216,14 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+    
 }
 
 /* Buttons*/
 
 .btn-container {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     gap: 1rem;
 
 }
@@ -233,15 +236,18 @@ section {
      border-radius: 2rem;
 }
 
-.btn-color-1, .btn-color-2 {
+.btn-color-1, 
+.btn-color-2 {
    border: rgb(53,53,53) 0.1rem solid; 
 }
 
-.btn-color-1:hover, .btn-color-2:hover {
+.btn-color-1:hover, 
+.btn-color-2:hover {
     cursor: pointer;
  }
 
- .btn-color-1:hover, .btn-color-2:hover {
+ .btn-color-1:hover, 
+ .btn-color-2:hover {
     background: rgb(53,53,53);
     color: white;
  }
