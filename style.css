@@ -20,7 +20,8 @@ p {
 }
 
 /*Transition*/
-a, btn {
+a, 
+.btn {
     transition: all 300ms ease;
 }
 
@@ -61,7 +62,6 @@ a:hover {
 
 .logo{
     font-size: 5rem;
-
 
 }
 
@@ -176,6 +176,8 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
+    width: 400px;
+    margin:auto 0;
 
 }
 
