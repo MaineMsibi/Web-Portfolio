@@ -18,7 +18,7 @@ html{
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color:rgb(208, 62, 9);
 }
 
 /*Transition*/
@@ -285,6 +285,7 @@ section {
 
  #about {
     position: relative;
+    background-color: rgb(7, 155, 155);
  }
 
  .about-containers{
@@ -307,7 +308,8 @@ section {
  }
 
  .about-pic {
-    border-radius: 2rem;
+    border-radius:50%;
+
  }
 
  .arrow {
@@ -342,6 +344,7 @@ section {
 
 #experience {
     position: relative;
+    
 }
 
 .experience-sub-title {
@@ -382,13 +385,14 @@ article .icon {
 
 #projects {
     position: relative;
+    
 }
   
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
 }
-  
+
 .project-img {
     border-radius: 2rem;
     width: 90%;
@@ -401,7 +405,7 @@ article .icon {
 }
   
 .project-btn {
-    color: black;
+    color: rgb(7, 155, 155);
     border-color: rgb(163, 163, 163);
 }
 
@@ -412,6 +416,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    background-color: rgb(7, 155, 155);
 }
   
 .contact-info-upper-container {
