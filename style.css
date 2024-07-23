@@ -200,7 +200,7 @@ section {
     font-weight: 600;
 
 }
-
+.section_text_odd,
 .section_text_p1 {
     text-align: center;
     
@@ -285,7 +285,7 @@ section {
 
  #about {
     position: relative;
-    background-color: rgb(7, 155, 155);
+    
  }
 
  .about-containers{
@@ -298,6 +298,7 @@ section {
  .about-details-container{
     justify-content: center;
     flex-direction: column;
+    /*background-color: rgb(7, 155, 155);*/
    
  }
 
@@ -318,7 +319,7 @@ section {
     bottom: 2.5rem;
 
  }
- 
+ .details-conatainers,
  .details-conatainer {
     padding: 1.5rem;
     flex: 1;
@@ -327,7 +328,18 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    
  }
+
+ .details-conatainers {
+    background-color: rgb(7, 155, 155);
+    
+ }
+
+ .one{
+    color: azure;
+ }
+ 
 
  .section-container{
     gap: 4rem;
@@ -448,6 +460,11 @@ article .icon {
   
 .email-icon {
     height: 2.5rem;
+}
+
+.section_text_odd{
+    color: azure;
+    
 }
   
 /* FOOTER SECTION */
