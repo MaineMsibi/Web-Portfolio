@@ -288,6 +288,7 @@ section {
     
  }
 
+ .about-containers_2,
  .about-containers{
     gap: 2rem;
     display: flex;
@@ -298,11 +299,11 @@ section {
  .about-details-container{
     justify-content: center;
     flex-direction: column;
-    /*background-color: rgb(7, 155, 155);*/
    
  }
 
  .about-containers, 
+ .about-containers_2,
  .about-details-container{
     display: flex;
     
@@ -374,11 +375,11 @@ section {
 
 .article-container {
     display: flex;
-    /*text-align: initial*/
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+   
 }
 
 article {
@@ -419,6 +420,59 @@ article .icon {
 .project-btn {
     color: rgb(7, 155, 155);
     border-color: rgb(163, 163, 163);
+}
+
+.thecard{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    margin: auto
+
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position:absolute;
+    padding: 1.5rem;
+    flex: 1;
+    background: darkgray;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    backface-visibility: hidden;
+    overflow: hidden;
+   
+    
+}
+.theback{
+    position:relative;
+    padding: 1.5rem;
+    flex: 1;
+    background: rgb(59, 57, 56);
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotateY(180deg);
+    text-align: justify;
+
+
+}
+.the-maine-card-container{
+    
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    text-align: center;
+    perspective: 1000px;
+
 }
 
 /* CONTACT */
