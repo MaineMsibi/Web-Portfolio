@@ -55,10 +55,10 @@ a{
 }
 
 a:hover {
-    color: grey;
+    color:rgb(208, 62, 9);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181) ;
+    text-decoration-color:rgb(208, 62, 9);
 
 }
 
@@ -68,6 +68,7 @@ a:hover {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color:rgb(208, 62, 9);
 
 
 }
@@ -165,6 +166,58 @@ section {
     box-sizing: border-box;
     min-height: fit-content;
 }
+.section_text_p2 span {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+
+.section_text_p2 span::before {
+    content: "Software Developer";
+    display: inline-block;
+    animation: typing 10s steps(22, end) infinite, words 20s infinite;
+    white-space: nowrap;
+}
+
+.section_text_p2 span::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+    right: 0;
+    animation: cursor 0.8s steps(1) infinite;
+}
+
+@keyframes words {
+    0%, 10% {
+        content: "Software Developer";
+    }
+    50%, 60% {
+        content: "The possibility of positive change";
+    }
+}
+
+@keyframes cursor {
+    0%, 50% {
+        opacity: 1;
+    }
+    50%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 
 .section-container{
     display: flex;
@@ -237,21 +290,22 @@ section {
 .btn-container {
     display: flex;
     justify-content: center;
-    /*gap: 1rem;*/
+
 
 }
 
 .btn {
-     font-weight: 600;
-     transition: all 300ms ease;
-     padding: 1rem;
-     width: 8rem;
-     border-radius: 2rem;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
 }
 
 .btn-color-1, 
 .btn-color-2 {
    border: rgb(53,53,53) 0.1rem solid; 
+   background-color: white;
 }
 
 .btn-color-1:hover, 
@@ -262,21 +316,8 @@ section {
  .btn-color-1:hover, 
  .btn-color-2:hover {
     background: rgb(53,53,53);
-    color: white;
+    background-color: rgb(7, 155, 155);
  }
-
- .btn-color-1:hover{
-    background: rgb(0,0,0);
- }
-
- .btn-color-2{
-    background: none;
- }
-
- .btn-color-2:hover {
-    border: rgb(255,255,255) 0.1rem solid;
- }
-
  .btn-container{
     gap: 1rem;
  }
@@ -321,10 +362,11 @@ section {
 
  }
  .details-conatainers,
- .details-conatainer {
+ .details-conatainer{
     padding: 1.5rem;
     flex: 1;
     background: white;
+    color: black;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -332,13 +374,14 @@ section {
     
  }
 
- .details-conatainers {
+ .details-conatainers:hover {
     background-color: rgb(7, 155, 155);
+    transform: scale(1.15);
     
  }
 
  .one{
-    color: azure;
+    color: rgb(25, 26, 26);
  }
  
 
@@ -418,8 +461,12 @@ article .icon {
 }
   
 .project-btn {
-    color: rgb(7, 155, 155);
+    color: black;
     border-color: rgb(163, 163, 163);
+}
+
+.Sum{
+    text-align: center;
 }
 
 .thecard{
@@ -439,7 +486,7 @@ article .icon {
     position:absolute;
     padding: 1.5rem;
     flex: 1;
-    background: darkgray;
+    background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -453,7 +500,7 @@ article .icon {
     position:relative;
     padding: 1.5rem;
     flex: 1;
-    background: rgb(59, 57, 56);
+    background:rgb(7, 155, 155);
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -473,6 +520,21 @@ article .icon {
     text-align: center;
     perspective: 1000px;
 
+}
+.para{
+    text-align:center;
+    text-wrap:balance;
+    color:whitesmoke;
+}
+.btn-btn-color-2-project-btn{
+    background-color: white;
+    border-radius: 2rem;
+    width: 6rem;
+    height: 3rem;
+    border: rgb(53,53,53) 0.1rem solid; 
+}
+.btn-btn-color-2-project-btn:hover{
+    background-color:rgb(208, 62, 9); ;
 }
 
 /* CONTACT */
