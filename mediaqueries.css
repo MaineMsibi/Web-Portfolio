@@ -24,11 +24,14 @@
         display: flex;
     }
     #experience,
-    .experience-details-container{
+    .experience-details-container
+    {
         margin-top: 2rem;
     }
     #profile,
-    .section-container{
+    .section-container,
+    .the-maine-card-container
+    {
         display: block;
     }
     .arrow {
@@ -71,9 +74,11 @@
        height: fit-content;
        margin-bottom: 2rem; 
     }
-    .about-containers
-    .contact-info-upper-container
-    .btn-container{
+    .about-containers,
+    .about-containers_2
+    .contact-info-upper-container,
+    .btn-containerp
+    {
         flex-wrap:wrap;
     }
     .contact-info-container{
@@ -110,6 +115,15 @@
     .text-container{
         text-align: justify;
     }
+
 }
 
+@media(max-width:600px)
+{
+    .about-containers_2{
+        flex-wrap: wrap;
+        /*display: block;*/
+
+    }
+}
 

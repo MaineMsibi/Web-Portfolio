@@ -10,6 +10,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+   
 
 }
 
@@ -206,7 +207,7 @@ section {
         content: "Software Developer";
     }
     50.1%, 90% {
-        content: "The possibility of positive change";
+        content: "Possibility of positive change";
     }
 }
 @keyframes typing {
@@ -424,6 +425,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .article-container {
