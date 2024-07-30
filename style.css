@@ -161,12 +161,12 @@ a:hover {
 /* Section */
 section {
     padding-top: 4vh;
-    /*height: 96vh;*/
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
 .section_text_p2 span {
+    
     position: relative;
     display: inline-block;
     white-space: nowrap;
@@ -177,45 +177,41 @@ section {
 .section_text_p2 span::before {
     content: "Software Developer";
     display: inline-block;
-    animation: typing 10s steps(22, end) infinite, words 20s infinite;
+    animation:words 7s infinite;
     white-space: nowrap;
 }
 
 .section_text_p2 span::after {
     content: "";
     position: absolute;
-    width: 2px;
+    width: 0;
     height: 100%;
-    background-color: rgb(10, 10, 10);
+    background-color: white;
     right: 0;
-    animation: cursor 0.8s steps(1) infinite;
+    animation: cursor 0.7s infinite, typing 10s steps(50, end) infinite;
+    border-left: 2px solid black;
 }
 
+
+@keyframes cursor {
+    from {
+        border-left-color: 2px soild black;
+    }
+    to{
+        border-left-color: 2px soild black;
+    }
+}
 @keyframes words {
-    0%, 10% {
+    0%, 50% {
         content: "Software Developer";
     }
-    50%, 60% {
+    50.1%, 90% {
         content: "The possibility of positive change";
     }
 }
-
-@keyframes cursor {
-    0%, 50% {
-        opacity: 1;
-    }
-    50%, 100% {
-        opacity: 0;
-    }
-}
-
 @keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
+    0%, 30%, 60%, 100% { width: 0; } 
+    5%, 35%, 65% { width: calc(100% + 6px); } 
 }
 
 
@@ -368,22 +364,36 @@ section {
     background: white;
     color: black;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
     
  }
 
+ .details-conatainer{
+    border: rgb(53, 53, 53) 0.1rem solid;
+ }
+
  .details-conatainers:hover {
     background-color: rgb(7, 155, 155);
-    transform: scale(1.15);
+    transform: scale(1.1);
     
  }
 
  .one{
-    color: rgb(25, 26, 26);
+    color: black;
  }
- 
+    
+ .two{
+    color:rgb(208, 62, 9);
+    text-align: center;
+}
+
+
+ .text-container{
+    border: rgb(24, 23, 23);
+    border-width: 2rem;
+    border-radius: 2rem;
+ }
 
  .section-container{
     gap: 4rem;
@@ -476,11 +486,13 @@ article .icon {
     border-radius: 2rem;
     padding: 1.5rem;
     text-align: center;
-    margin: auto
+    margin:auto
 
 }
 .thecard:hover{
     transform: rotateY(180deg);
+    width: 300px;
+    height: 200px;
 }
 .thefront{
     position:absolute;
@@ -493,6 +505,8 @@ article .icon {
     text-align: center;
     backface-visibility: hidden;
     overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    z-index: 1; 
    
     
 }
@@ -509,6 +523,8 @@ article .icon {
     overflow: hidden;
     transform: rotateY(180deg);
     text-align: justify;
+    -webkit-backface-visibility: hidden;
+    z-index: 2; 
 
 
 }
