@@ -19,7 +19,7 @@ I used Netlify to deploy my website as it offers offers more advanced features a
 ### Built with
 
 - HTML
-- CSS + (media queries for responsiveness)
+- CSS + (media queries for responsiveness and animation)
 - Javascript
 
 
