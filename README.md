@@ -36,7 +36,7 @@ I aim to sharpen my HTML and CSS skills so that I can delve more into JavaScript
 - (https://youtu.be/ldwlOzRvYOU?si=p0N9VaW43w6ZKnTK) - This tutorial guided me through building a web portfolio from scratch, introducing new HTML elements and demonstrating how to style them with CSS. Additionally, the video showcased how JavaScript can enhance website functionality when combined with HTML
 - (https://youtu.be/OV8MVmtgmoY?si=ZosS9Qyzkrra0VAS) - I used this video to construct my flip card animation, this provides a cool way to showcaing the projects I have worked on.
 -(https://youtu.be/R3UGK1RhY6I?si=vuYp18Sy7OaivXwj) - This video hepled me create the typing text effect.
-- Lastly I used good old Uncle G (Google) to access sites like stackoverflow for debugging.
+- Lastly I used good old Uncle G (Google) to access sites like stackoverflow for debugging and sliding bar animation.
   Icons: From flaticon
 ## Author
 
