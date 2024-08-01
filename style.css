@@ -449,6 +449,62 @@ article .icon {
   
 }
 
+/*Soft Skills*/
+.bar{
+    background: white;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius:10px ;
+    overflow: hidden;
+    /*box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) ;*/
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 16px rgba(0,0,0,0.22) ;
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(5, 122, 114)0%, rgb(66, 228, 217)100%)
+
+
+
+}
+.PS{
+    width:80%;
+    animation: PS 3s;
+}
+.T{
+    width:75%;
+    animation: T 3s;
+}
+.C{
+    width:75%;
+    animation: C 3s;
+}
+.TM{
+    width:82%;
+    animation: TM 3s;
+}
+.L{
+    width:75%;
+    animation: L 3s;
+}
+.CY{
+    width:87%;
+    animation: CY 3s;
+}
+.CT{
+    width:76%;
+    animation: CT 3s;
+}
+.A{
+    width:80%;
+    animation: A 3s;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -484,7 +540,7 @@ article .icon {
 .thecard{
     position: relative;
     transform-style: preserve-3d;
-    transition: all 0.8s ease;
+    transition: all 1s linear;
     border-radius: 2rem;
     padding: 1.5rem;
     text-align: center;
@@ -498,6 +554,8 @@ article .icon {
 }
 .thefront{
     position:absolute;
+    width: 300px;
+    height: 380px;
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -516,6 +574,8 @@ article .icon {
     position:relative;
     padding: 1.5rem;
     flex: 1;
+    width: 300px;
+    height: 400px;
     background:rgb(7, 155, 155);
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -532,11 +592,14 @@ article .icon {
 }
 .the-maine-card-container{
     
-    padding: 1.5rem;
+    /*
     flex: 1;
     border-radius: 2rem;
     text-align: center;
-    perspective: 1000px;
+    perspective: 1000px;*/
+    align-items: center;
+    padding: 1rem;
+    transform: rotateX(360deg);
 
 }
 .para{

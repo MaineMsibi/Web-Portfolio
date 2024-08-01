@@ -126,4 +126,75 @@
 
     }
 }
+/* for the bar animation*/
+@keyframes PS{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
+@keyframes T{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes C{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
+    
+}
+@keyframes TM{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:82%;
+    }
+    
+}
+@keyframes L{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
+    
+}
+@keyframes CY{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:87%;
+    }
+    
+}
+@keyframes CT{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:76%;
+    }
+    
+}
+@keyframes A{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+    
+}
 
