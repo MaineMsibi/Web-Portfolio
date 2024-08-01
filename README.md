@@ -37,11 +37,13 @@ I aim to sharpen my HTML and CSS skills so that I can delve more into JavaScript
 - (https://youtu.be/OV8MVmtgmoY?si=ZosS9Qyzkrra0VAS) - I used this video to construct my flip card animation, this provides a cool way to showcaing the projects I have worked on.
 -(https://youtu.be/R3UGK1RhY6I?si=vuYp18Sy7OaivXwj) - This video hepled me create the typing text effect.
 - Lastly I used good old Uncle G (Google) to access sites like stackoverflow for debugging.
-  
+  Icons: From flaticon
 ## Author
 
 - Website - [Charmaine Msibi]
 
 
 ## Acknowledgments
-I want to acknowledge the creator of the YouTube channel" How to Become a Developer" for the great content on web portfolio, and DarkCode and Arjun Khara for the animation creation content.
+I want to acknowledge the creator of the YouTube channel" How to Become a Developer" for the great content on web portfolio, and DarkCode and Arjun Khara for the animation creation content. Last but not least, the authors that created the icons I used from flaticon.
+
+Any advice on how I can improve this website is welcome. :)
